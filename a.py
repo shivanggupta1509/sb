@@ -35,12 +35,13 @@ class Main:
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-		self.email                 = input('[#] Enter Email: ')
-		self.password              = input('[#] Enter Password: ')
-		self.birth_year            = int(input('[#] Enter the birth year (only year): '))
-		self.birth_month           = int(input('[#] Enter the birth month (1 - 12): '))
-		self.birth_day             = int(input('[#] Enter the birth day (1 - 28): '))
-		self.gender                = input('[#] Enter the gender (male or female): ')
+                self.nick                  = input('[#] Enter Username:')
+		self.email                 = nick+"@dripplay.tk"
+		self.password              = ('shivanggupta')
+		self.birth_year            = int('1999')
+		self.birth_month           = int('9')
+		self.birth_day             = int('15')
+		self.gender                = ('male')
 		
 
 	def gencredentailsmethod(self):
