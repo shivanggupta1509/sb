@@ -35,8 +35,8 @@ class Main:
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-self.nick=input('[#] Enter Username:')
-		self.email                 = nick+"@dripplay.tk"
+self.nick=input('[#] Enter Username')
+self.email=nick+"@dripplay.tk"
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
