@@ -7,8 +7,8 @@ import string
 import os
 import time
 
-script_version = "3.0"
-script_title   = "Spotify Account Creator By ALIILAPRO"
+script_version = "1.0"
+script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
 	 ..: {script_title} :..
  
@@ -17,10 +17,10 @@ script_info    = f'''
  [-] Version: {script_version}
  --------
  [!] ABOUT CODER:
- [-] ALIILAPRO, Programmer and developer from IRAN.
- [-] Github   : https://github.com/aliilapro
- [-] Project  : https://github.com/ALIILAPRO/spotify-account-creator
- [-] Telegram : https://t.me/aliilapro
+ 
+ [-] Github   : https://github.com/shivanggupta1509
+ [-] Project  : https://github.com/shivanggupta1509/sb
+ [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
 class Main:
