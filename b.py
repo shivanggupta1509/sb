@@ -36,11 +36,11 @@ class Main:
 		self.settitle(script_title)
 		self.clear(script_info)
 		self.email                 = input('[#] Enter Email: ')
-		self.password              = input('[#] Enter Password: ')
-		self.birth_year            = int(input('[#] Enter the birth year (only year): '))
-		self.birth_month           = int(input('[#] Enter the birth month (1 - 12): '))
-		self.birth_day             = int(input('[#] Enter the birth day (1 - 28): '))
-		self.gender                = input('[#] Enter the gender (male or female): ')
+		self.password              = ('shivanggupta')
+		self.birth_year            = int('1999')
+		self.birth_month           = int('9')
+		self.birth_day             = int('15')
+		self.gender                = ('male')
 		
 
 	def gencredentailsmethod(self):
@@ -51,7 +51,7 @@ class Main:
 		credentails['birth_day']   = self.birth_day
 		credentails['password']    = self.password
 		username                   = string.ascii_letters + string.digits
-		username                   = ''.join(random.choice(username) for i in range(random.randint(7,11)))
+		username                   = ('Shivang')
 		credentails['username']    = username
 		credentails['email']       = self.email
 
