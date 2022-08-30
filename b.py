@@ -35,7 +35,7 @@ class Main:
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-		self.email                 = input('[#] Enter Email: ')
+		self.email                 = input('[#] Enter Username: ')
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
@@ -53,7 +53,7 @@ class Main:
 		username                   = string.ascii_letters + string.digits
 		username                   = ('Shivang')
 		credentails['username']    = username
-		credentails['email']       = self.email+"dripplay.tk"
+		credentails['email']       = self.email+"@dripplay.tk"
 
 		return credentails
 
