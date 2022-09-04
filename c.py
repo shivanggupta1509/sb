@@ -23,8 +23,7 @@ script_info    = f'''
  [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
-def code():
-class Main:
+class Main():
 	def clear(self, text):
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print(text)
@@ -89,7 +88,8 @@ class Main:
 			print(e)
 
 while True:
-    code()
+    Main()
+
     if input("Repeat the program? (Y/N)").strip().upper() != 'Y':
         break
 
