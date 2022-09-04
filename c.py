@@ -6,7 +6,7 @@ import string
 
 import os
 import time
-def code():
+
 script_version = "1.0"
 script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
@@ -89,7 +89,7 @@ class Main:
 			print(e)
 
 while True:
-    code()
+    Main()
     if input("Repeat the program? (Y/N)").strip().upper() != 'Y':
         break
 
