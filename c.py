@@ -24,7 +24,7 @@ script_info    = f'''
  --------
 '''
 
-While Main:
+class Main:
 	def clear(self, text):
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print(text)
