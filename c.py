@@ -23,7 +23,7 @@ script_info    = f'''
  [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
-class Main():
+class Main:
 def clear(self, text):
 os.system('cls' if os.name == 'nt' else 'clear')
 print(text)
@@ -88,7 +88,7 @@ except Exception as e:
 print(e)
 
 while True:
-    class Main():
+    class Main
 def clear(self, text):
 os.system('cls' if os.name == 'nt' else 'clear')
 print(text)
