@@ -6,7 +6,7 @@ import string
 
 import os
 import time
-
+def code():
 script_version = "1.0"
 script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
@@ -88,6 +88,8 @@ class Main:
 		except Exception as e:
 			print(e)
 
-
-if input('Do you want to repeat(y/n)') == 'n':
+while True:
+    code()
+    if input("Repeat the program? (Y/N)").strip().upper() != 'Y':
         break
+
