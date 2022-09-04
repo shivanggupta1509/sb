@@ -77,6 +77,7 @@ class Main:
 				token = req.json()['login_token']
 				self.settitle(script_title)
 				self.clear(script_info)
+time.sleep(5)
 				print('[>] ACCOUNT CREATED SUCCESSFULLY\n[-] Email: {0}\n[-] Password:{1}\n[-] Username:{2}\n[-] Gender:{3}\n[-] Birth year:{4}\n[-] Birth month:{5}\n[-] Birth day:{6}\n'.format(credentails['email'],credentails['password'],credentails['username'],credentails['gender'],credentails['birth_year'],credentails['birth_month'],credentails['birth_day']))
 				with open('ACCOUNT-SPOTIFY.txt','a') as f:
 				    f.write('[INFO ACCOUNT]\nEmail: {0}\nPassword: {1}\nUsername: {2}\nGender: {3}\nBirth year: {4}\nBirth month: {5}\nBirth day: {6}\nToken: {7}\n___________________\n\n'.format(credentails['email'],credentails['password'],credentails['username'],credentails['gender'],credentails['birth_year'],credentails['birth_month'],credentails['birth_day'],token))
@@ -88,4 +89,4 @@ class Main:
 			print(e)
 
 
-time.sleep(5)
+
