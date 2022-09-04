@@ -24,7 +24,6 @@ script_info    = f'''
  --------
 '''
 class Main:
-time.sleep(5)
 	def clear(self, text):
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print(text)
@@ -89,3 +88,4 @@ time.sleep(5)
 			print(e)
 
 
+time.sleep(5)
