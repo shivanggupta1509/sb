@@ -89,6 +89,7 @@ class Main():
 
 while True:
     Main()
+creator(self)
 
     if input("Repeat the program? (Y/N)").strip().upper() != 'Y':
         break
