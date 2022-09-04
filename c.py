@@ -23,6 +23,7 @@ script_info    = f'''
  [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
+class Main:
 time.sleep(5)
 	def clear(self, text):
 		os.system('cls' if os.name == 'nt' else 'clear')
