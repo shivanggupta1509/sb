@@ -72,7 +72,7 @@ class Main:
 			}
 
 			credentails     = self.gencredentailsmethod()
-			data            = 'birth_day={0}&birth_month={1}&birth_year={2}&collect_personal_info=undefined&creation_flow=&creation_point=https://www.spotify.com/uk/&displayname={3}&email={4}&gender={5}&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&password={6}&password_repeat={7}&platform=www&referrer=&send-email=1&thirdpartyemail=0&fb=0'.format(credentails['birth_day'],credentails['birth_month'],credentails['birth_year'],credentails['username'],credentails['email'],credentails['gender'],credentails['password'],credentails['password'])
+			data            = 'birth_day={0}&birth_month={1}&birth_year={2}&collect_personal_info=undefined&creation_flow=&creation_point=https://www.spotify.com/us/&displayname={3}&email={4}&gender={5}&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&password={6}&password_repeat={7}&platform=www&referrer=&send-email=1&thirdpartyemail=0&fb=0'.format(credentails['birth_day'],credentails['birth_month'],credentails['birth_year'],credentails['username'],credentails['email'],credentails['gender'],credentails['password'],credentails['password'])
 			req             = session.post("https://spclient.wg.spotify.com/signup/public/v1/account", headers=headers, data=data)
 			if "login_token" in req.text:
 				token = req.json()['login_token']
