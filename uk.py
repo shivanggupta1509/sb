@@ -53,7 +53,7 @@ class Main:
 		username                   = string.ascii_letters + string.digits
 		username                   = ('Shivang')
 		credentails['username']    = username
-		credentails['email']       = self.email+"g@uk.com"
+		credentails['email']       = self.email+"@uk.com"
 
 		return credentails
 
